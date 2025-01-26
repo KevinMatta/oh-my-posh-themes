@@ -126,7 +126,7 @@
       "segments": [
         {
           "background": "transparent",
-          "foreground": "p:terminal-white",
+          "foreground": "p:terminal-blue",
           "foreground_templates": [
             "{{if gt .Code 0}}p:terminal-red{{end}}"
           ],
@@ -147,8 +147,11 @@
     "template": "\u279c "
   },
   "transient_prompt": {
-    "background": "p:t-background",
-    "foreground": "p:terminal-blue",
+    "background": "transparent",
+    "foreground": "p:terminal-white",
+    "properties": {
+      "always_enabled": true
+    },
     "template": "\u279c "
   },
   "final_space": true,
